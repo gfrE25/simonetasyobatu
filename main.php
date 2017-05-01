@@ -1,5 +1,7 @@
 <?php
 
+namespace simonetasyobatu;
+
 use pocketmine\event\Listener;
 use pocketmine\event\block\SignCheangeEvent;
 use pocketmine\tile;
