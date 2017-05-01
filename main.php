@@ -12,6 +12,7 @@ class main extends PluginBase implements Listener{
 
 	public function onEnable(){
 		$this->getlogger()->error("死んでみようか(＾ω＾)ﾆｺﾆｺ");
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 
 	public function onSignChange(SignChangeEvent $event){
