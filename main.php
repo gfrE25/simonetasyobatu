@@ -3,7 +3,7 @@
 namespace simonetasyobatu;
 
 use pocketmine\event\Listener;
-use pocketmine\event\block\SignCheangeEvent;
+use pocketmine\event\block\SignChangeEvent;
 use pocketmine\tile;
 use pocketmine\tile\Sign;
 use pocketmine\plugin\PluginBase;
