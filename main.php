@@ -1,24 +1,5 @@
 <?php
 
-/*
-|~~~~~~~~|  |\     /|   /~~~~~\  ~~~~~  |~~~~\    /~~~~~\
-|           | \   / |  /      |    |    |     |  /      |
-|    ~~~~|  |  \_/  |  |______     |    |____/   |_______
-|        |  |       |         |    |    |\__            |
-|________|  |       |  \______|  __|__  |   \    \______|
-(c)gamesukimanIRS
-*/
-
-/*
- *   _   _                _     _ _             _       
- *  | \ | | ___ _ __ __ _| |__ (_) | ____ _  __| | __ _ 
- *  |  \| |/ _ \ '__/ _` | '_ \| | |/ / _` |/ _` |/ _` |
- *  | |\  |  __/ | | (_| | | | | |   < (_| | (_| | (_| |
- *  |_| \_|\___|_|  \__,_|_| |_|_|_|\_\__,_|\__,_|\__,_|
- *
- */
-
-
 namespace simonetasyobatu;
 
 use pocketmine\event\block\SignChangeEvent;
@@ -35,6 +16,7 @@ class main extends PluginBase implements Listener{
 		$lines = $event->getLines();
 		switch($lines[0]){
 			//下のcaseは気分が悪くなる恐れがありますのでご注意ください
+			//以下の単語はgamesukimanIRSさんによって書かれました
 			case 'oppai':
 			case 'おっぱい':
 			case 'sex':
